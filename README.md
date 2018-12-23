@@ -1,0 +1,1 @@
+### fs-write-stream-atomic
