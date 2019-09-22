@@ -63,6 +63,12 @@ test('rename eperm existing file different content', function (t) {
   
 })
 
+test('cleanup', function (t) {
+  rimraf.sync(target)
+  rimraf.sync(target2)
+  rimraf.sync(target3)
+  t.end()
+})
 ```
 
 ```
